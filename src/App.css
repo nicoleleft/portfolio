@@ -72,7 +72,7 @@ body {
 }
 
 .nav li:hover {
-  background-color: #97ac98;
+  background-color: #886390;
   border-radius: 10px;
   color: white;
 }
@@ -196,7 +196,7 @@ ul.skills-list li::before {
 }
 
 ul.skills-list li:hover {
-  background-color: #97ac98;
+  background-color: #886390;
   color: #ffffff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   transform: scale(1.01);
@@ -222,11 +222,11 @@ ul.skills-list li:hover {
 .projects-tags {
   display: inline-block;
   list-style: none;
-  border-color: #97ac98;
+  border-color: #886390;
   border-style: solid;
   border-width: flex;
   border-radius: 25px;
-  background-color: #97ac98;
+  background-color: #886390;
   color: #ffffff;
   padding: 0.5rem;
   margin-right: 0.5rem;
