@@ -275,17 +275,10 @@ ul.skills-list li:hover {
 }
 
 .contact-pic {
-  width: 70%;
+  width: 100%;
   border-radius: 20px;
   display: flex;
-  border-style: solid;
-  border-width: 0.3rem;
-}
-
-@media (max-width: 600px) {
-  .contact-pic {
-    max-width: 70%;
-  }
+  padding: 10px;
 }
 
 .contact-button {

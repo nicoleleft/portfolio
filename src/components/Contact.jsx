@@ -1,4 +1,4 @@
-import contact_pic from '../assets/contact_pic.jpeg'
+import contact_pic from '../assets/contact_pic.svg'
 
 export default function Contact() {
 
