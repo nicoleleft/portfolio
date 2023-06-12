@@ -137,6 +137,8 @@ body {
 
 .content-wrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   margin-top: 1rem;
 }
@@ -249,7 +251,8 @@ ul.skills-list li:hover {
 
 .contact-container {
   display: flex;
-  align-items: normal;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .contact-left {
@@ -262,12 +265,15 @@ ul.skills-list li:hover {
 
 .contact-right {
   display: flex; 
-  flex-direction: column; 
+  flex-wrap: wrap;
   justify-content: center; 
   font-size: 25px;
 }
 
 .contact-right-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-content: flex-end;
   border-color: #463f3a;
   border-style: solid;
@@ -276,10 +282,16 @@ ul.skills-list li:hover {
 }
 
 .contact-pic {
-  width: 100%;
-  border-radius: 20px;
   display: flex;
-  padding: 10px;
+  flex-wrap: wrap;
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  align-content: flex-end;
+  border-radius: 20px;
+  overflow-x: hidden
 }
 
 .contact-button {
