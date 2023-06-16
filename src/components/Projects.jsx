@@ -36,6 +36,21 @@ export default function Projects() {
                     </div> 
                 </li>
                 <li className="projects-card">
+                    <div> 
+                        <a href="https://youtu.be/2yn9weoGpfM?t=12813" className="projects-title">Twilight Forest VR Game for Oculus Quest 2</a>
+                        <p>
+                            Lead user interface design and level design for a virtual reality bow and arrow puzzle solving 
+                            game for my AI for Game Programming class project with a team of three other people. Designed 
+                            main menu screen, user interface in-game, as well as the environment with puzzle design kept in mind. 
+                            Utilized wireframing, Unity user interface tools, interactive prototyping, storyboarding, and performed 
+                            user testing.
+                        </p>
+                        <li className="projects-tags">unity</li>
+                        <li className="projects-tags">css</li>
+                        <li className="projects-tags">figma</li>                
+                    </div> 
+                </li>
+                <li className="projects-card">
                     <div>
                         <a className="projects-title">Odoo 15 Plant Care App Module</a>
                         <p> Developed a plant care application module in Odoo 15. Developed 

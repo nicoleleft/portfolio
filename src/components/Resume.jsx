@@ -17,6 +17,8 @@ export default function Resume(){
                         <li>React.js and ReactNative</li>
                         <li>Figma</li>
                         <li>Python</li>
+                        <li>Github</li>
+                        <li>Unity</li>
                         <li>C#</li>
                         <li>Java</li>
                         <li>Object-oriented Programming</li>
