@@ -14,20 +14,21 @@ export default function Contact() {
     
     return (
         <>
-            <h1>Contact Me</h1>
-            <div className="contact-container">
-                <div className="contact-left">
-                    <img src={contact_pic} alt='contact_pic' className='contact-pic'/>
-                </div>
-                <div className='contact-right-container'>
-                    <p className="contact-right">
-                        Feel free to send me any business inquiries and I will get 
-                        back to you as soon as possible.   
-                    </p>
-                    <button onClick={handleClick} className='contact-button'>Get in touch!</button>
-                </div>
+            <div className='container'>
+                <h1>Contact Me</h1>
+                <div className="contact-container">
+                    <div className="contact-left">
+                        <img src={contact_pic} alt='contact_pic' className='contact-pic'/>
+                    </div>
+                    <div className='contact-right-container'>
+                        <p className="contact-right">
+                            Feel free to send me any business inquiries and I will get 
+                            back to you as soon as possible.   
+                        </p>
+                        <button onClick={handleClick} className='contact-button'>Get in touch!</button>
+                    </div>
+                </div>               
             </div>
-            
         </> 
     );
 }
