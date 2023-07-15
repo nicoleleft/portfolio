@@ -1,7 +1,6 @@
 export default function Resume(){
     return (
         <>
-        <div className="container">
             <h1> Resume</h1>
             <div>
                 <h2>Education</h2>
@@ -27,7 +26,6 @@ export default function Resume(){
                     </ul>
                 </div>
             </div>
-        </div>
         </>
     )
 }

@@ -3,7 +3,6 @@ import profile_pic from '../assets/profile_pic.png'
 export default function About() {
     return (
         <>
-        <div className='container'>
             <div className='content-wrapper'>
                 <div className='text-container'>
                     <h1>Who am I?</h1>
@@ -16,8 +15,7 @@ export default function About() {
                     </p>
                 </div>        
                 <img src={profile_pic} alt="Profile" className='profile-pic'></img>
-            </div>
-        </div>  
+            </div> 
         </>
     )
 

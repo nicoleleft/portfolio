@@ -200,7 +200,7 @@ body {
   border-color: #463f3a;
   border-style: dotted;
   border-radius: 20px;
-  overflow-x: hidden
+  overflow-x: hidden;
 }
 
 ul.skills-list {
@@ -324,6 +324,10 @@ ul.skills-list li:hover {
   margin-bottom: 5%;
   align-content: flex-end;
   border-radius: 20px;
+  display: flex;
+  border-width: 0.5rem;
+  border-color: #463f3a;
+  border-style: dotted;
   overflow-x: hidden
 }
 
