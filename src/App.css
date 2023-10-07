@@ -284,8 +284,9 @@ ul.skills-list li:hover {
 
 .contact-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  margin-top: 1rem;
 }
 
 .contact-left {
@@ -297,38 +298,28 @@ ul.skills-list li:hover {
 }
 
 .contact-right {
-  display: flex; 
-  flex-wrap: wrap;
-  justify-content: center; 
+  color: #463f3a;
+  text-align: center;
   font-size: 25px;
 }
 
 .contact-right-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-content: flex-end;
+  background-color: #ffffff;
   border-color: #463f3a;
   border-style: solid;
-  padding: 7rem;
-  background-color: #ffffff;
+  padding: 6rem;
 }
 
 .contact-pic {
-  display: flex;
-  flex-wrap: wrap;
-  width: 90%;
+  width: 50%;
   height: auto;
-  margin-left: 5%;
   margin-top: 5%;
   margin-bottom: 5%;
-  align-content: flex-end;
-  border-radius: 20px;
-  display: flex;
   border-width: 0.5rem;
   border-color: #463f3a;
   border-style: dotted;
-  overflow-x: hidden
+  border-radius: 20px;
+  overflow-x: hidden;
 }
 
 .contact-button {

@@ -27,7 +27,8 @@ export default function Projects() {
                                 students and designed with Figma. Implemented using React Native, 
                                 MudBlazor, Azure, and CosmosDB. Senior Design 2023 Showcase can be 
                                 found {" "}
-                                <a href="https://www.cecs.ucf.edu/SeniorDesignShowcase/showcase/" className="here">here.</a>
+                                <a href="https://www.cecs.ucf.edu/SeniorDesignShowcase/showcase/" className="here">here</a>
+                                .
                             </p>
                             <li className="projects-tags">react native</li>
                             <li className="projects-tags">mudblazor</li>

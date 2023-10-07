@@ -10,7 +10,7 @@ export default function About() {
                         Hi! My name is Nicole.
                     </h2>
                     <p className="about-section">
-                        I am a software engineer specializing in frontend development
+                        I am a software developer specializing in frontend development
                         and user interface design.
                     </p>
                 </div>        
