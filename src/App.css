@@ -71,8 +71,6 @@ body {
   color: #463f3a;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
-  padding: 0 1rem;
 }
 
 .nav ul {
@@ -83,6 +81,7 @@ body {
   gap: 1rem;
   font-size: 24px;
   padding-left: 0;
+  padding-right: 1rem;
   margin-right: 2rem;
 }
 
@@ -103,21 +102,27 @@ body {
   text-decoration: none;
   height: 100%;
   display: flex;
-  align-items: center;
   padding-left: 0.5rem;
-  padding-right: 1rem;
+  padding-right: 0.5rem;
+  align-items: center;
+}
+
+.nav li {
+  transform: translateX(0px) translateY(0px);
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition-duration: 0.15s;
 }
 
 .nav li:hover {
   background-color: #886390;
   border-radius: 10px;
   color: white;
-  padding-left: 0.5rem;
   padding-bottom: 0.1rem;
-  translate: 10px 10px;
-  transition-property: translate;
+  transform: translateX(5px) translateY(5px);
+  transition-property: transform;
   transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  transition-duration: 0.15s;
+  transition-duration: 300ms;
 }
 
 .nav button {
