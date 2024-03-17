@@ -242,6 +242,7 @@ ul.skills-list li::before {
   top: 0.25em;
   width: 1em;
   height: 1em;
+  margin-left: 0.8rem;
   background-image: url('../src/assets/star.svg');
   background-repeat: no-repeat;
   background-size: contain;
