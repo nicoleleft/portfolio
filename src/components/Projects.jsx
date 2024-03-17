@@ -3,9 +3,9 @@ export default function Projects() {
         <>
             <div className="container">
                 <h1>Projects</h1>
-                <ul>
+                <ul className="fix-padding">
                     <li className="projects-card">
-                        <div> 
+                        <div className="card-padding-inside"> 
                             <a className="projects-title">Portfolio Website</a>
                             <p>The website you're on right now! Designed using Figma
                                 and implemented using React.js, CSS style sheets, and hosted 
@@ -18,7 +18,7 @@ export default function Projects() {
                         </div> 
                     </li>
                     <li className="projects-card">
-                        <div> 
+                        <div className="card-padding-inside"> 
                             <a href="https://youtu.be/_Tb1lKcswww" className="projects-title">GAEA Pulse Feedback Mobile and Web App - United
                             States Space Force</a>
                             <p>The capstone project for my Senior Design classes at the University
@@ -38,7 +38,7 @@ export default function Projects() {
                         </div> 
                     </li>
                     <li className="projects-card">
-                        <div> 
+                        <div className="card-padding-inside"> 
                             <a href="https://youtu.be/2yn9weoGpfM?t=12813" className="projects-title">Twilight Forest VR Game for Oculus Quest 2</a>
                             <p>
                                 Lead user interface design and level design for a virtual reality bow and arrow puzzle solving 
@@ -53,7 +53,7 @@ export default function Projects() {
                         </div> 
                     </li>
                     <li className="projects-card">
-                        <div>
+                        <div className="card-padding-inside">
                             <a className="projects-title">Odoo 15 Plant Care App Module</a>
                             <p> Developed a plant care application module in Odoo 15. Developed 
                                 using Python, Odoo 15, and XML. Utilizes relational database 

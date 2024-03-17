@@ -77,7 +77,6 @@ body {
 
 .nav ul {
   padding: 0;
-  margin: 1;
   list-style: none;
   display: flex;
   justify-content: flex-end;
@@ -90,7 +89,7 @@ body {
 }
 
 .nav-icons {
-  height: 1.5rem;
+  width: 40px;
 }
 
 .site-title {
@@ -103,13 +102,16 @@ body {
   height: 100%;
   display: flex;
   align-items: center;
-  padding: .25rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
 }
 
 .nav li:hover {
   background-color: #886390;
   border-radius: 10px;
   color: white;
+  padding-left: 0.5rem;
+  padding-bottom: 0.1rem;
 }
 
 .nav button {
@@ -206,6 +208,7 @@ body {
 ul.skills-list {
   text-align: center;
   column-count: 2;
+  padding-left: 0;
   list-style: none;
   font-size: 24px;
   transition: transform 0.2s ease-in-out;
@@ -248,11 +251,20 @@ ul.skills-list li:hover {
   border-width: 0.5rem;
   border-radius: 20px;
   list-style: none;
-  padding: 2rem;
+  padding-left: 0;
   margin-bottom: 2rem;
   align-items: center;
   justify-content: center;
   background-color: #ffffff;
+}
+
+.card-padding-inside{
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.fix-padding {
+  padding-left: 0;
 }
 
 .projects-tags {
@@ -284,22 +296,12 @@ ul.skills-list li:hover {
 
 .contact-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
   align-items: center;
-}
-
-.contact-left {
-  display: flex;
-  height: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  align-content: flex-start;
+  justify-content: center;
 }
 
 .contact-right {
   color: #463f3a;
-  text-align: center;
   font-size: 25px;
 }
 
@@ -307,25 +309,23 @@ ul.skills-list li:hover {
   background-color: #ffffff;
   border-color: #463f3a;
   border-style: solid;
-  padding: 6rem;
 }
 
 .contact-pic {
   width: 50%;
-  height: auto;
-  margin-top: 5%;
   margin-bottom: 5%;
   border-width: 0.5rem;
   border-color: #463f3a;
   border-style: dotted;
   border-radius: 20px;
-  overflow-x: hidden;
+  margin-right: 3rem;
 }
 
 .contact-button {
   background-color: #ffffff;
   border-color: #463f3a;
   border-width: 3px;
+  margin-bottom: 3rem;
 }
 
 .contact-button:hover {
