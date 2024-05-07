@@ -18,7 +18,12 @@ h1 {
 }
 
 .hero-text {
+    background-image: url('/src/assets/hero_text.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
     height: 75px;
+    min-width: 550px;
     position: absolute;
     top: 75px;
     left: 200px;
@@ -34,7 +39,12 @@ h1 {
 }
 
 .profile-pic {
-    height: 400px;    
+    background-image: url('/src/assets/contact_pic.jpeg');
+    height: 350px;
+    width: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .about-description {
