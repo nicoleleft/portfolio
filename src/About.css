@@ -14,7 +14,7 @@ h1 {
     background-repeat: no-repeat;
     background-position: center; 
     position: relative;
-    background-image: url("~/src/assets/about_me.png");
+    background-image: url("/src/assets/about_me.png");
 }
 
 .hero-text {
@@ -40,5 +40,6 @@ h1 {
 .about-description {
     padding: 4rem;
     margin: 3rem;
+
 }
 
