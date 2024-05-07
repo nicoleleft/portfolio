@@ -53,7 +53,7 @@ button {
 
 .nav {
   background-color: #ffffff;
-  background-image: url("~/src/assets/about_me.png");
+  background-image: url("/src/assets/about_me.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 70%;
