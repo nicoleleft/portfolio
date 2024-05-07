@@ -1,0 +1,44 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+.background-image {
+    background-size: cover;
+    min-height: 700px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+    background-image: url("/src/assets/about_me.png");
+}
+
+.hero-text {
+    height: 75px;
+    position: absolute;
+    top: 75px;
+    left: 200px;
+}
+
+.pic-with-caption {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+    align-items: center;
+    flex-direction: row;
+}
+
+.profile-pic {
+    height: 400px;    
+}
+
+.about-description {
+    padding: 4rem;
+    margin: 3rem;
+}
+
