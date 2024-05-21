@@ -10,46 +10,71 @@ h1 {
 
 .background-image {
     background-size: cover;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
     min-height: 700px;
     background-repeat: no-repeat;
-    background-position: center; 
-    position: relative;
+    background-position: center;
     background-image: url("/src/assets/about_me.png");
 }
 
+
 .hero-text {
-    background-image: url('/src/assets/hero_text.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-    height: 75px;
-    min-width: 550px;
-    position: absolute;
-    top: 75px;
-    left: 200px;
+    width: 30%;
+    margin: 2rem 0rem;
 }
 
 .pic-with-caption {
     display: flex;
-    position: absolute;
-    top: 200px;
-    left: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     align-items: center;
     flex-direction: row;
+    max-width: 1200px;
 }
 
 .profile-pic {
-    background-image: url('/src/assets/contact_pic.jpeg');
-    height: 350px;
+    max-width: 40%;
+}
+
+.about-text {
     width: 700px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+}
+
+.about-intro {
+    padding: 1rem; 
+    margin: 0 auto; 
+    max-width: 1200px; 
 }
 
 .about-description {
-    padding: 4rem;
-    margin: 3rem;
+    padding: 0rem 4rem 0rem 4rem;
+    font-size: large;
+    text-align: left;
+}
+
+@media (width <= 1350px) {
+    .background-image {
+        align-items: center;
+    }
+
+    .hero-text {
+        width: 50%;
+    }
+    
+    .profile-pic {
+        max-width: 40%;
+    }
+}
+
+@media (width <= 700px) {
+    .about-text {
+        width: 500px;
+    }
 
 }
 
