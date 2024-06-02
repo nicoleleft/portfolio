@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    color: black;
+}
+
 body {
     background-color: #ffffff;
     margin: 0;
@@ -54,6 +59,7 @@ h1 {
 .about-description {
     padding: 0rem 4rem 0rem 4rem;
     font-size: large;
+    font-weight: 600;
     text-align: left;
 }
 
@@ -67,7 +73,7 @@ h1 {
     }
     
     .profile-pic {
-        max-width: 40%;
+        max-width: 50%;
     }
 }
 
