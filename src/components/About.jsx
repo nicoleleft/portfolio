@@ -5,29 +5,25 @@ export default function About() {
     return (
         <>
             <div className="background-image">
-                <img className="hero-text" src={hero_text}></img>
-                <div className='pic-with-caption'>
-                    <img className="profile-pic" src={contact_pic} alt="profile-pic"></img>
-                    <div className='about-text'>
-                        <h2 className='about-intro'> 
-                            I am a web and applications developer with a passion for both design and code :)
-                        </h2>
-                        <p className='about-description'>
-                            Howdy hey! My name is Nicole. I graduated from the University of Central Florida in 2023 with 
-                            a Bachelor's degree in Computer Science. When I came to UCF, I didn't know I was going to love
-                            programming. I applied as a forensic chemistry major and decided to change to undecided engineering
-                            *at orientation* when I felt in my bones that my passions lied elsewhere. After not too long, I 
-                            landed on Computer Science since I had always wanted to learn how to code, so why not? Lo and behold, 
-                            programming quickly became my favorite thing to learn about and practice.
-                            <br></br>
-                            <br></br>
-                            Along with programming, I love to paint, create digital art, design websites and other digital assets,
-                            and make video games! 
-                        </p>
+                <div className='page-container'>
+                    <div className='page-left'>
+                        <img className="hero-text" src={hero_text}></img>
+                        <img className="profile-pic" src={contact_pic} alt="profile-pic"></img>
                     </div>
-                    
+                    <p className='about-description'>
+                        I am a skilled web and applications developer with a strong passion for both design and programming. 
+                        I hold a Bachelor's degree in Computer Science from the University of Central Florida, class of 2023, and
+                        am currently pursuing my Master's Degree is Digital Forensics.
+                        <br/> 
+                        <br/> 
+                        Although I initially enrolled as a Forensic Chemistry major, I discovered my true interests lay elsewhere 
+                        and made the decision to pivot to Computer Science. This choice allowed me to explore my long-standing 
+                        curiosity about coding, which soon became a field I deeply enjoy both learning and mastering.
+                        In addition to programming, I have a creative side that drives my love for painting, digital art, web 
+                        design, and video game development. My diverse skill set enables me to blend functionality with 
+                        creativity in every project I undertake.
+                    </p>
                 </div>
-                
             </div>
         </>
     )
