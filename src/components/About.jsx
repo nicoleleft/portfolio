@@ -4,7 +4,7 @@ import '../../src/About.css';
 export default function About() {
     return (
         <>
-            <div className="background-image">
+            <div>
                 <div className='page-container'>
                     <div className='page-left'>
                         <img className="hero-text" src={hero_text}></img>

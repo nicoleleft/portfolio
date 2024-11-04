@@ -51,10 +51,7 @@ button {
 }
 
 .nav {
-  background-color: #ffffff;
-  background-image: url("/src/assets/about_me.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: color(srgb 1 0.9987 0.99 / 0.57);
   opacity: 70%;
   display: flex;
   justify-content: space-evenly;

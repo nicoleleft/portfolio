@@ -10,12 +10,12 @@ function App() {
 
 
   return (
-    <>
+    <div className="background-image">
       <Header/>
       <div id='about'>
         <About/>
       </div>
-    </>
+    </div>
   )
 }
 

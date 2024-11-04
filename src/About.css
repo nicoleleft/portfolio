@@ -15,7 +15,7 @@ h1 {
 
 .background-image {
     background-size: cover;
-    height: 90vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-image: url("/src/assets/about_me.png");
