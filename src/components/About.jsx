@@ -12,8 +12,7 @@ export default function About() {
                     </div>
                     <p className='about-description'>
                         I am a skilled web and applications developer with a strong passion for both design and programming. 
-                        I hold a Bachelor's degree in Computer Science from the University of Central Florida, class of 2023, and
-                        am currently pursuing my Master's Degree in Digital Forensics.
+                        I hold a Bachelor's degree in Computer Science from the University of Central Florida, class of 2023.
                         <br/> 
                         <br/> 
                         Although I initially enrolled as a Forensic Chemistry major, I discovered my true interests lay elsewhere 
