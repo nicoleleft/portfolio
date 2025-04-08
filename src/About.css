@@ -15,8 +15,6 @@ h1 {
 
 .background-image {
     background-size: cover;
-    height: 100vh;
-    background-repeat: no-repeat;
     background-position: center;
     background-image: url("/src/assets/about_me.png");
 }
@@ -26,6 +24,7 @@ h1 {
     height: 100%;
     align-items: center;
     justify-content: space-evenly;
+    padding-top: 80px;
 }
 
 .hero-text {
@@ -61,4 +60,3 @@ h1 {
     border-radius: 15px;
     margin-top: 8rem;
 }
-

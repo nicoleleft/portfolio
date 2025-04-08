@@ -14,6 +14,9 @@ function App() {
       <Header/>
       <div id='about'>
         <About/>
+        <Projects/>
+        <Resume/>
+        <Contact/>
       </div>
     </div>
   )
