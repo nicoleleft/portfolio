@@ -55,9 +55,6 @@ export default function Projects() {
                             Provide ongoing maintenance and bug fixes to ensure compliance with Google Play Store and App Store requirements                        
                         </li>
                         <li>
-                            Provide ongoing maintenance and bug fixes to ensure compliance with Google Play Store and App Store requirements.                        
-                        </li>
-                        <li>
                             Distributed to over 2,000 REACT users and 10+ Admins. 
                         </li>
                         
