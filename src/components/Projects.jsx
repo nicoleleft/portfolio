@@ -5,7 +5,7 @@ export default function Projects() {
                 <h2>projects</h2>
                 <div id="pomo" className="projects-container">
                     <h4 className="tech-used" style={{fontStyle: "italic", marginRight: "30px"}}>
-                         <span style={{textDecoration: "underline"}}>Technologies Used:</span> Javascript, React.js, JSX, CSS, Node.js, Vite, Netlify ,Figma
+                         <span style={{textDecoration: "underline"}}>Technologies Used:</span> Javascript, React.js, JSX, CSS, Node.js, Vite, Netlify, Figma, Github
                     </h4>
                     <ul className="projects-card" style={{marginRight: "0"}}>
                         <h3 style={{textDecoration: "underline"}}>Perfect Pomo React Web App, July 2025</h3>
