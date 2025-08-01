@@ -15,39 +15,33 @@ h1 {
 
 .background-image {
     background-size: cover;
-    display: flex;
-    align-content: center;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: wrap;
-    min-height: 700px;
-    background-repeat: no-repeat;
     background-position: center;
     background-image: url("/src/assets/about_me.png");
 }
 
+.page-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 80px;
+}
 
 .hero-text {
-    width: 30%;
+    width: 60%;
     margin: 2rem 0rem;
 }
 
-.pic-with-caption {
+.page-left {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-direction: row;
-    max-width: 1200px;
+    flex-direction: column;
+    width: 40%; 
+    align-items: flex-start;
 }
 
 .profile-pic {
-    max-width: 40%;
-}
-
-.about-text {
-    width: 700px;
+    max-width: 100%;
+    border-radius: 15px;
 }
 
 .about-intro {
@@ -57,30 +51,12 @@ h1 {
 }
 
 .about-description {
-    padding: 0rem 4rem 0rem 4rem;
-    font-size: large;
+    width: 50%;
+    align-content: center;
+    padding: 2rem;
     font-weight: 600;
     text-align: left;
+    background-color: color(srgb 1 0.9987 0.99 / 0.57);
+    border-radius: 15px;
+    margin-top: 8rem;
 }
-
-@media (width <= 1350px) {
-    .background-image {
-        align-items: center;
-    }
-
-    .hero-text {
-        width: 50%;
-    }
-    
-    .profile-pic {
-        max-width: 50%;
-    }
-}
-
-@media (width <= 700px) {
-    .about-text {
-        width: 500px;
-    }
-
-}
-
