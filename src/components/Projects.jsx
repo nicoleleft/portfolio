@@ -3,11 +3,29 @@ export default function Projects() {
         <>
             <div id="projects">
                 <h2>projects</h2>
-                <div id="Pomodoro Web Application">
-
-                </div>
-                <div id="Pixel Jump Web-based Game">
-
+                <div id="pomo" className="projects-container">
+                    <h4 className="tech-used" style={{fontStyle: "italic", marginRight: "30px"}}>
+                         <span style={{textDecoration: "underline"}}>Technologies Used:</span> Javascript, React.js, JSX, CSS, Node.js, Vite, Netlify ,Figma
+                    </h4>
+                    <ul className="projects-card">
+                        <h3 style={{textDecoration: "underline"}}>Perfect Pomo React Web App, July 2025</h3>
+                        <li>
+                              Designed in Figma and developed using React.js                      
+                        </li>
+                        <li>
+                              My version of a perfect pomodoro timer, allows the user to change the background by uploading their own background image, including gifs.                      
+                        </li>
+                        <li>
+                              Timers are customizable to any configuration of short and long breaks.                 
+                        </li>
+                        <li>
+                              Loaded with custom presets of backgrounds for the user.                     
+                        </li>
+                        <li>
+                             Link: <a href='https://perfectpomo.netlify.app/'>https://perfectpomo.netlify.app/</a>
+                        </li>
+                    </ul>
+                    
                 </div>
                 <div id="react-refresher" className="projects-container">
                     <ul className="projects-card">
