@@ -7,7 +7,7 @@ export default function Projects() {
                     <h4 className="tech-used" style={{fontStyle: "italic", marginRight: "30px"}}>
                          <span style={{textDecoration: "underline"}}>Technologies Used:</span> Javascript, React.js, JSX, CSS, Node.js, Vite, Netlify ,Figma
                     </h4>
-                    <ul className="projects-card">
+                    <ul className="projects-card" style={{marginRight: "0"}}>
                         <h3 style={{textDecoration: "underline"}}>Perfect Pomo React Web App, July 2025</h3>
                         <li>
                               Designed in Figma and developed using React.js                      
